@@ -1,0 +1,19 @@
+pluginManagement {
+    plugins {
+        id 'org.springframework.boot' version "${springBootVersion}"
+        id 'io.spring.dependency-management' version "${springDependencyManagementVersion}"
+        id 'org.asciidoctor.jvm.convert' version "${asciidoctorConvertVersion}"
+    }
+}
+
+rootProject.name = 'doxygen-sample'
+
+include 'core:core-enum'
+include 'core:core-api'
+
+include 'storage:db-core'
+
+include 'support:logging'
+include 'support:monitoring'
+
+include 'tests:api-docs'
