@@ -1,7 +1,7 @@
 # README
 
 > [!NOTE]
-> 해당 프로젝트는 Doxygen예제를 생성하기 위한 프로젝트입니다.
+> 해당 프로젝트는 Doxygen예제를 Spring에서 생성하기 위한 프로젝트입니다.
 
 ## Doxygen 설치 및 실행
 > [!WARNING]
